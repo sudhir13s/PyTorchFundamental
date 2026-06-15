@@ -1,0 +1,17 @@
+# Introduction to PyTorch — YouTube Series
+# Installs into the shared ml-py312 uv env:
+#   uv pip install --python ~/.uv/envs/ml-py312/bin/python -r requirements.txt
+
+torch
+torchvision
+
+# Notebooks & visualization
+jupyterlab
+matplotlib
+numpy
+
+# Lesson 05 — TensorBoard support
+tensorboard
+
+# Lesson 07 — Model understanding
+captum
