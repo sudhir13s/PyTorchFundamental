@@ -1,0 +1,51 @@
+# --- Project working dirs (keep the folder, ignore the contents) ---
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# --- Experiment logs / outputs ---
+runs/                 # TensorBoard logs (lesson 05)
+lightning_logs/
+wandb/
+outputs/
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.python-version
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- Test / lint / type caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipython/
+
+# --- Saved model artifacts & large data ---
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.h5
+*.pkl
+
+# --- Secrets / local config ---
+.env
+.env.*
+
+# --- IDE / tooling / OS ---
+.idea/
+.vscode/
+.claude/
+*.iml
+.DS_Store
+Thumbs.db
